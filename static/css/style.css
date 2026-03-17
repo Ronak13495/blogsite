@@ -80,7 +80,7 @@ header {
   border-color: #3b82f6;
 }
 
-#modal-overlay.flex { display: flex; }
+#modal-overlay.flex { display: flex; z-index: 1000; }
 
 .search-section{
   margin-top:100px;
