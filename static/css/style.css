@@ -1,6 +1,17 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
 }
 
 .post-card {
@@ -70,6 +81,10 @@ body {
 }
 
 #modal-overlay.flex { display: flex; }
+
+.search-section{
+  margin-top:100px;
+}
 
 mark {
   background: #fef08a;
